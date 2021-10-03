@@ -1,0 +1,7 @@
+
+1. Create controller BrandController
+2. Create Model Brand -m
+3. Create Migration when create model automatically create migration.
+4. After migrate table brands
+
+Create folder: backend ==> brand ==> brand_view.blade.php

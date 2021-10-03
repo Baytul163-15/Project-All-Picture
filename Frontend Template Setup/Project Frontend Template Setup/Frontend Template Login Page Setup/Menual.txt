@@ -1,0 +1,4 @@
+ 
+
+1. Auth ==> login.balde.php
+2. Auth ==> register.blade.php

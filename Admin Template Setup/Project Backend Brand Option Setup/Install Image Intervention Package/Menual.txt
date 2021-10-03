@@ -1,0 +1,13 @@
+################## Image Intervation ##############
+
+1. Search Laravel Intervation Packeg in google.
+2. install composer : composer require intervention/image
+3. then goto : config ==> app.php into 
+	//Package Service Providers...
+	Intervention\Image\ImageServiceProvider::class
+	//Package Service Providers...
+4. then another packeg add to : config ==> app.php into 'aliases' => [
+	'Image' => Intervention\Image\Facades\Image::class
+	],
+5. Then publish in laravel : in command mode run and execute
+php artisan vendor:publish --provider="Intervention\Image\ImageServiceProviderLaravelRecent"
